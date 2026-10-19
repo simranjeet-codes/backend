@@ -1,0 +1,16 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "simran badwer",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
