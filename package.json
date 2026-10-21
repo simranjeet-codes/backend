@@ -1,16 +1,19 @@
 {
   "name": "chaibackend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
+  "description": " backend",
+  "type": "module",
   "keywords": [
-    "node",
-    "chai"
+    "javascript",
+    "backend"
   ],
   "license": "ISC",
   "author": "simran badwer",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon scr/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
